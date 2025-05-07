@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+.rotateflip{
+    transform-style: preserve-3d;
+}
+.rotateflipclick{
+    transform-style: preserve-3d;
+    transform: rotateY(.5turn);
+   
+}
+.cardBack{
+    transform: rotateY(.5turn);
+}
+
+
+
+
+
+  
